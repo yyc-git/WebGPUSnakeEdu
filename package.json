@@ -1,0 +1,11 @@
+{
+  "name": "webgpu-snake-edu",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "lessons/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
