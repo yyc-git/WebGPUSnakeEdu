@@ -1,0 +1,34 @@
+线上 免费公开课
+
+开发贪吃蛇游戏
+refer to: https://developer.aliyun.com/article/509291
+
+开发最简单的引擎：
+basic material, no light(for food,  checkboard)
+transparent material（）
+phong light material(for snake)
+实现pipeline管理和切换
+ECS, 
+add script component
+no script component, directly set global in event handler
+固定相机，no arcball
+
+1个月
+
+
+
+● WebGPU介绍（绘制一个三角形）
+● 绘制一个三角形
+● 三角函数、向量、矩阵
+● 光栅化介绍
+● 函数式编程
+● 重构“绘制一个三角形”
+● 实现光照，绘制一个光照立方体
+● 场景：basic 三角形+光照立方体
+● 提炼基本的引擎
+  ○ basic material, no light(for food,  checkboard)
+phong light material(for snake)
+实现pipeline管理和切换
+ECS
+  ○ 重写场景
+● 开发“贪吃蛇”游戏
