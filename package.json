@@ -1,11 +1,20 @@
 {
-  "name": "webgpu-snake-edu",
-  "private": true,
-  "workspaces": [
-    "packages/*",
-    "lessons/*"
-  ],
-  "devDependencies": {
-    "lerna": "^4.0.0"
-  }
+    "name": "webgpu-snake-edu",
+    "private": true,
+    "scripts": {
+        "clean": "lerna clean",
+        "install": "lerna bootstrap"
+    },
+    "workspaces": [
+        "lessons/*"
+    ],
+    "config": {
+        "commitizen": {
+            "path": "node_modules/cz-customizable"
+        }
+    },
+    "devDependencies": {
+        "lerna": "^4.0.0"
+    },
+    "dependencies": {}
 }
